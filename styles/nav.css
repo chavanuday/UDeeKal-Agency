@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #ff004f;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+.flex{
+    display: flex;
+}
+
+nav{
+    background-color: #ccc;
+    padding: 10px;
+    height: 70px;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: 0.4s; */
+    
+}
+.hide {
+    transform: translateY(-100%);
+}
+
+.nav-item{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav-logo{
+    margin-right: auto;
+}
+.nav-img{
+    height: 40px;
+    width: 152px;
+}
+.nav-items{
+    align-items: center;
+}
+.nav-items li{
+    list-style: none;
+}
+
+.nav-item{
+    margin: 2rem;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+
+@media  (max-width: 900px) {
+    /* Uncomment comment this if mobile views is causing issue. Also check nav-items */
+    /* nav{
+        position: static;
+    } */
+    .hamburger{
+        display: block;
+        margin-right: 3px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    
+    .nav-items{
+        position: absolute;
+        flex-direction: column;
+        background-color: #ccc;
+        width: 100%;
+        left: 0;
+        top: -100%; /* Change to 100*/
+        transition: 0.5s;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        align-items: initial;
+        z-index: 1;
+    }
+    
+    .nav-items li{
+        margin: 15px 0;
+    }
+    
+    .nav-items.active{
+        left: 0;
+        top: 70px;
+    }
+
+}

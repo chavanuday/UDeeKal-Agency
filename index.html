@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- -------------------------------------Google Fonts------------------------------------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/unnamed.png" type="image/x-icon">
+
+    <!-- -------------------------------------Style Sheets------------------------------------ -->
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </button>
+    <nav class="flex" id="navbar">
+        <div class="nav-logo">
+            <a href="#"><img src="./images/unnamed.png" class="nav-img" alt="logo"></a>
+        </div>
+        <ul class="nav-items flex">
+            <li><a href="#home" class="nav-item">Home</a></li>
+            <li><a href="#about" class="nav-item">About</a></li>
+            <li><a href="#qualification" class="nav-item">Qualification</a></li>
+            <li><a href="#works" class="nav-item">Works</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+
+        <div class="home-container">
+            <p class="sub-heading">Hello, We are</p>
+            <h1 class="heading">UDeeKal Agency</h1>
+            <p class="sub-text">We Give <span class="auto-type"></span></p>
+            <div class="button-container">
+                <buttom class="download-resume"><a href="UDeeKal Agency-2.pdf" target="_blank">Get more Information</a>
+                </buttom>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="./images/ourpic.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h1 class="sub-title">About Us</h1>
+            <div class="content-container">
+                <div class="about-img">
+                    <img src="./images/udeekall.jpg" alt="">
+                </div>
+                <div class="about-container">
+                    <div class="about-text">
+                        <h2 class="about-title">Innovative Code Maverick</h2>
+                        <p>Udeekal is a dynamic web development agency founded and operated by a talented team of three individuals: Kalyani, Uday, and Deepak. With a passion for creating innovative and user-friendly websites, Udeekal specializes in crafting digital solutions that meet the unique needs and goals of each client. Our team's expertise encompasses a wide range of web development technologies and approaches, ensuring the delivery of high-quality, customized websites that drive results. Udeekal is committed to providing top-notch web development services and helping businesses establish a strong online presence.
+                            Udeekal specializes in crafting custom web solutions. Our services include responsive design, e-commerce, and CMS integration. We're committed to building user-friendly websites that boost your online presence and meet your unique objectives. Let's create a digital strategy for your success.
+                        </p>
+                    </div>
+                    <div class="logo-container">
+                        <h2>Technologies our agency Pursued</h2>
+                        <div class="logos">
+                            <img src="./images/logos/html.png" alt="">
+                            <img src="./images/logos/css.png" alt="">
+                            <img src="./images/logos/js.png" alt="">
+                            <img src="./images/logos/react.png" alt="">
+                            <img src="./images/logos/node.png" alt="">
+                            <img src="./images/logos/python.png" alt="">
+                            <img src="./images/logos/java.png" alt="">
+                            <img src="./images/logos/mongodb.png" alt="">
+                            <img src="./images/logos/mysql.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="qualification" id="qualification">
+        <div class="container">
+            <h1 class="sub-title">Collaboration</h1>
+            <div class="qualification-list">
+                <div class="qual">
+                    <h3>J.P MORGAN CHASE & CO</h3>
+                    <p>Udeekal proudly crafted a cutting-edge website for JP Morgan, delivering a seamless blend of innovation and functionality. Our expertise ensures online excellence for industry leaders</p>
+                </div>
+                <div class="qual">
+                    <h3>General Motors</h3>
+                    <p>Revolutionizing Digital for General Motors. Our bespoke web solutions for General Motors reflect our commitment to innovation, driving unique online experiences that set them apart in the automotive industry.</p>
+                </div>
+                <div class="qual">
+                    <h3>P&G</h3>
+                    <p>Elevating P&G's Online Presence. Our web solutions for P&G embody excellence and creativity, delivering dynamic online platforms that engage customers and elevate brand visibility in the global market.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="projects" id="works">
+        <div class="container">
+            <h1 class="sub-title">Our Works</h1>
+            <div class="project-list">
+                <div class="project bg-white">
+                    <img src="./images/com/trikuta.png" alt="" class="project-img object-fit">
+                    <div class="desc-layer">
+                        <h3>Trikuta Infotech</h3>
+                        <p>Designed website for Australian MSP company, blending tech expertise and local solutions for
+                            seamless digital experiences
+                        </p>
+                        <a href="https://trikuta.com.au" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project bg-white">
+                    <img src="./images/com/o2.png" alt="" class="project-img object-fit">
+                    <div class="desc-layer">
+                        <h3>O<sub>2</sub> The Fest</h3>
+                        <p>Crafted & launched college fest website - a vibrant platform for events, schedules, and fun,
+                            engaging students campus-wide
+                        </p>
+                        <a href="https://github.com/atharv2608/O2" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/com/project-1.jpg" alt="" class="project-img">
+                    <div class="desc-layer">
+                        <h3>Catering Management</h3>
+                        <p>"Developed catering management system in Java for Sem 5 project, which reduces manual tasks
+                            and enhance efficiency in food service operations
+                        </p>
+                        <a href="https://github.com/atharv2608/Sai-Leela-Caterers" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/com/project-2.jpg" alt="" class="project-img">
+                    <div class="desc-layer">
+                        <h3>Disease Detection App</h3>
+                        <p>Created a disease detection app in Python for Sem 6, empowering users to input symptoms and
+                            identify 5 diseases with accuracy and speed.
+                        </p>
+                        <a href="https://github.com/atharv2608/HealthCure" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="projects" id="works">
+        <div class="container">
+            <h1 class="sub-title">Our Team</h1>
+            <div class="project-list">
+                <div class="project bg-white">
+                    <img src="./images/uday.jpg" alt="" class="project-img object-fit">
+                    <div class="desc-layer">
+                        <h3>Uday chavan (CEO)</h3>
+                        <p>I am a Cheif Executive Officer Of UDeeKal Pvt Ltd. My role involves leadership, innovation, and accountability for the organization's performance.
+                        </p>
+                        <a href="/portfolio/uday/uday.html" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project bg-white">
+                    <img src="./images/deepak.jpg" alt="" class="project-img object-fit">
+                    <div class="desc-layer">
+                        <h3>Deepak Gahalot (CTO)</h3>
+                        <p>I am a Chief Technical Officer of UDeeKal Pvt Ltd. I lead the company's technology strategy, including software development and IT infrastructure.
+                        </p>
+                        <a href="/portfolio/deepak/deepak.html" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/Kalyani.jpg" alt="" class="project-img">
+                    <div class="desc-layer">
+                        <h3>Kalyani Bharsat (COO)</h3>
+                        <p>"I am Cheif Operating Officer of UDeeKal Pvt Ltd. Also I work with back-end technologies. I handle data processing, user authentication, and server maintenance.
+                        </p>
+                        <a href="/portfolio/kalyani/kalyani.html" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Us</h1>
+            <div class="contact-container flex">
+
+                <div class="social-handles">
+                    <span class="flex mail-id ">
+                        <i class="fa-solid fa-envelope icons"></i>
+                        <p><a href="mailto:Hello@udeekal.com" class="icons-text">Hello@udeekal.com</a></p>    
+                    </span>
+
+
+                    <span class="flex github">
+                        <i class="fa-brands fa-github icons"></i>
+                        <p><a href="https://github.com/udayc22" class="icons-text" target="_blank">Uday Chavan</a></p>
+                    </span>
+                    <span class="flex github">
+                        <i class="fa-brands fa-github icons"></i>
+                        <p><a href="https://github.com/Kalyani1004" class="icons-text" target="_blank">Kalyani Bharsat</a></p>
+                    </span>  <span class="flex github">
+                        <i class="fa-brands fa-github icons"></i>
+                        <p><a href="https://github.com/BhoolkuDeepak/" class="icons-text" target="_blank">Deepak Gahalot</a></p>
+                    </span>
+
+                    <span class="social-apps">
+                        <p>Social Media Handles</p>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram icons"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin icons"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook icons"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-twitter icons"></i></a>
+
+                    </span>
+                    
+                </div>
+                <div class="contact-form">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="name" placeholder="ENTER YOUR NAME" required>
+                        <input type="email" name="Email" id="email" placeholder="ENTER YOUR EMAIL" required>
+                        <textarea name="Message" id="message" cols="30" rows="10" placeholder="ENTER YOUR MESSAGE" required></textarea>
+                        <button id="send-button" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>&copy; 2023. UDeeKal. All Rights Reserved</div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/2e1b37b51c.js" crossorigin="anonymous"></script>
+    <script src="./scripts/script.js?v=1.1"></script>
+</body>
+
+</html>
