@@ -38,6 +38,7 @@ let typed = new Typed(".auto-type", {
 
 })
 
+
 let prevScrollPos = window.pageYOffset;
 const navbar = document.getElementById('navbar');
 
