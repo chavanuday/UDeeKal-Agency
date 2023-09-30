@@ -57,7 +57,7 @@ window.addEventListener('scroll', () => {
 
 
 //Google sheets
-const scriptURL = 'https://script.google.com/macros/s/AKfycbx7XuUzTY1Ola2H8h7BGJezE4Y5513ViSjnueziR0JxomWfJBIaLZax1m2qNxpQfxl-LQ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxC_DjTR06yo93vumhrTv3BFtQBbHzF3nbEF6t5N9hoKf8OB-vQiTMQKRcZYO9f0FoW/exec'
 const form = document.forms['submit-to-google-sheet']
 let button = document.getElementById("send-button");
 form.addEventListener('submit', e => {
